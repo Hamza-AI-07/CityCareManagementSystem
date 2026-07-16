@@ -273,4 +273,4 @@ On Windows PowerShell, use:
 
 ## Repository
 
-This repository is published as `citycaresystem`.
+This repository is published as `CityCareManagementSystem`.
