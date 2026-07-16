@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.municipalservices.UserHomeActivity"
+    tools:showIn="@layout/activity_user_home">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/complaints"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:id="@+id/tv_complaints_text"/>
+
+
+        <RelativeLayout
+            android:layout_below="@+id/tv_complaints_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rl_total_complaints"
+            android:background="@drawable/bg_total">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:id="@+id/tv_total_complaints_in_number"
+                android:text="0"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/total_complaints"
+                android:textColor="@color/colorWhite"
+                android:layout_below="@+id/tv_total_complaints_in_number"
+                android:gravity="center"
+                android:textSize="20sp"
+                 />
+
+
+        </RelativeLayout>
+
+
+
+<LinearLayout
+    android:layout_marginTop="10dp"
+    android:id="@+id/l2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_below="@+id/rl_total_complaints"
+    android:gravity="center">
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="170dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/cv_total_complaints"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="20dp"
+        android:id="@+id/cv_open_complaints"
+        app:cardBackgroundColor="#48ED8A">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/rl_open_complaints"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/tv_open_complaints_in_number"
+                android:text="0"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:textColor="@color/colorWhite"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Open Complaints"
+                android:textColor="@color/colorWhite"
+                android:layout_below="@+id/tv_open_complaints_in_number"
+                android:textSize="12dp"
+                android:gravity="center"
+                 />
+
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="170dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/cv_total_complaints"
+        android:layout_toRightOf="@id/cv_open_complaints"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="20dp"
+        android:id="@+id/cv_closed_complaints"
+        app:cardBackgroundColor="#ED4852"
+        android:layout_toEndOf="@id/cv_open_complaints">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/rl_closed_complaints"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:id="@+id/tv_closed_complaints_in_number"
+                android:text="0"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Closed Complaints"
+                android:textColor="@color/colorWhite"
+                android:layout_below="@+id/tv_closed_complaints_in_number"
+                android:textSize="12dp"
+                android:gravity="center" />
+
+
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/l2"
+        android:gravity="center_horizontal"
+        android:background="@drawable/bg_pnpd">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".7"/>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/feedbacks"
+        android:layout_below="@id/cv_closed_complaints"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:id="@+id/tv_feedback_text"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+    <android.support.v7.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/tv_feedback_text"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="25dp"
+        android:id="@+id/cv_positive_feedback"
+        app:cardBackgroundColor="#48ED8A">
+
+        <RelativeLayout
+            android:id="@+id/rl_positive_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:onClick="positiveFeedBack">
+
+            <TextView
+                android:id="@+id/tv_positive_feedback_in_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="@color/colorWhite"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_positive_feedback_in_number"
+                android:gravity="center"
+                android:text="Positive"
+                android:textColor="@color/colorWhite"
+                android:textSize="15sp" />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/tv_feedback_text"
+        android:layout_toRightOf="@id/cv_open_complaints"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="25dp"
+        android:id="@+id/cv_negative_feedback"
+        app:cardBackgroundColor="#ED4852"
+        android:layout_toEndOf="@id/cv_open_complaints">
+
+        <RelativeLayout
+            android:id="@+id/rl_negative_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:onClick="negativeFeedback">
+
+            <TextView
+                android:id="@+id/tv_negative_feedback_in_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="0"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_negative_feedback_in_number"
+                android:text="Negative"
+                android:gravity="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="15sp" />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+</LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+    <android.support.v7.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/cv_positive_feedback"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="25dp"
+        android:id="@+id/cv_pending_feedback"
+        app:cardBackgroundColor="#EDBF48">
+
+        <RelativeLayout
+            android:id="@+id/rl_pending_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:onClick="pendingFeedBack">
+
+            <TextView
+                android:id="@+id/tv_pending_feedback_in_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="0"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_pending_feedback_in_number"
+                android:text="Pending"
+                android:gravity="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="15sp" />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/cv_negative_feedback"
+        android:layout_toRightOf="@id/cv_open_complaints"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="25dp"
+        android:id="@+id/cv_dropped_feedback"
+        app:cardBackgroundColor="#8F93A8"
+        android:layout_toEndOf="@id/cv_open_complaints">
+
+
+        <RelativeLayout
+            android:id="@+id/rl_dropped_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:onClick="droppedFeedBack">
+
+            <TextView
+                android:id="@+id/tv_dropped_feedback_in_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="0"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_dropped_feedback_in_number"
+                android:text="Pending"
+                android:gravity="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="15sp" />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</RelativeLayout>

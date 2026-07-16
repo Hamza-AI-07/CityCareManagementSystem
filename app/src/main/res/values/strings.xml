@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">City Care</string>
+    <string name="title_activity_user_home">UserHome</string>
+    <string name="complaints">Complaints</string>
+    <string name="total_complaints">Total Complaints</string>
+    <string name="open_complaints">Open\nComplaints</string>
+    <string name="feedbacks">Feedbacks</string>
+    <string name="positive_feedback">Positive\nFeedback</string>
+    <string name="negative_feedback">Negative\nFeedback</string>
+    <string name="dropped_feedback">Dropped\nFeedback</string>
+    <string name="pending_feedback">Pending\nFeedback</string>
+    <string name="closed_complaints">Closed\nComplaints</string>
+
+    <string name="complaint_id_format">ID: %1$s</string>
+    <string name="complaint_status_format">Status: %1$s</string>
+    <string name="complainer_details_format">Name: %1$s\n\nEmail: %2$s\n\nMobile: %3$s\n\nAddress: %4$s</string>
+    <string name="status_changed_to">Status changed to %1$s</string>
+    <string name="label_status">Status</string>
+    <string name="complaint_details_title_str">Complaint Details</string>
+    <string name="complaint_removed">Complaint removed</string>
+    <string name="failed_to_update_status">Failed to update status</string>
+    <string name="failed_to_delete_complaint">Failed to delete complaint</string>
+    <string name="select_image">Select Image</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="choose_from_gallery">Choose from Gallery</string>
+    <string name="cancel">Cancel</string>
+    <string name="show_phone_checkbox_label">Show my mobile number to other users</string>
+    <string name="image_cleared">Image cleared</string>
+
+
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+    <string-array name="com_google_android_gms_fonts_certs_dev">
+        <item>
+            MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550NaFtI6t9+u7hZeTfHwqNvacKhp1RbE6dBRGWynwMVX8XW8N1+UjFaq6GCJukT4qmpN2afb8sCjUigq0GuMwYXrFVee74bQgLHWGJwPmvmLHC69EH6kWr22ijx4OKXlSIx2xT1AsSHee70w5iDBiK4aph27yH3TxkXy9V89TDdexAcKk/cVHYNnDBapcavl7y0RiQ4biu8ymM8Ga/nmzhRKya6G0cGw8CAQOjgfwwgfkwHQYDVR0OBBYEFI0cxb6VTEM8YYY6FbBMvAPyT+CyMIHJBgNVHSMEgcEwgb6AFI0cxb6VTEM8YYY6FbBMvAPyT+CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBrDhEglQZBbKJEk5kT0mtKoOD1JMrSu1xuTKEBahWRbqHsXclaXjoBADb0kkjVEJu/Lh5hgYZnOjvlba8Ld7HCKePCVePoTJBdI4fvugnL8TsgK05aIskyY0hKI9L8KfqfGTl1lzOv2KoWD0KWwtAWPoGChZxmQ+nBli+gwYMzM1vAkP+aayLe0a1EQimlOalO762r0GXO0ks+UeXde2Z4e+8S/pf7pITEI/tP+MxJTALw9QUWEv9lKTk+jkbqxbsh8nfBUapfKqYn0eidpwq2AzVp3juYl7//fKnaPhJD9gs=
+        </item>
+    </string-array>
+    <string-array name="com_google_android_gms_fonts_certs_prod">
+        <item>
+            MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK
+        </item>
+    </string-array>
+    <string name="title_activity_user_home_tab">User Home</string>
+    <string name="tab_text_1">HOME</string>
+    <string name="tab_text_2">All Complaints</string>
+
+    <!-- Login Strings -->
+    <string name="user_panel">User Panel</string>
+    <string name="admin_panel">Admin Panel</string>
+    <string name="user_login">User Login</string>
+    <string name="admin_officer_login">Admin/Officer Login</string>
+    <string name="select_role">Select Admin/Officer Role</string>
+    <string name="specify_role_hint">Specify Role (e.g. WASA)</string>
+
+    <!-- Dashboard Strings -->
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="dashboard_subtitle">Track and manage your city services.</string>
+    <string name="my_applications">My Applications</string>
+    <string name="total_complaints_submitted">Total Complaints Submitted</string>
+    <string name="active_cases">Active Cases</string>
+    <string name="resolved_cases">Resolved</string>
+    <string name="feedback_insights">Feedback &amp; Insights</string>
+    <string name="add_new_complaint">Add New Complaint</string>
+
+    <!-- Officer Dashboard Strings -->
+    <string name="welcome_officer">Welcome, %1$s</string>
+    <string name="department_label">Department: %1$s</string>
+    <string name="total_assigned">Total Complaints Assigned</string>
+    <string name="view_complaint_list">View Complaint List</string>
+    <string name="pending">Pending</string>
+    <string name="in_progress">In Progress</string>
+    <string name="closed">Closed</string>
+    <string name="rejected">Rejected</string>
+    <string name="citizen_feedback">Citizen Feedback</string>
+    <string name="positive">Positive</string>
+    <string name="negative">Negative</string>
+    <string name="logout_text">Logout</string>
+    <string name="logout_confirm_msg">Are you sure you want to log out from Officer Dashboard?</string>
+
+    <!-- Create Complaint Strings -->
+    <string name="file_a_complaint">File a Complaint</string>
+    <string name="full_name_hint">Full Name</string>
+    <string name="email_address_hint">Email Address</string>
+    <string name="mobile_number_hint">Mobile Number</string>
+    <string name="complete_address_hint">Complete Address</string>
+    <string name="complaint_title_hint">Complaint Title</string>
+    <string name="detailed_description_hint">Detailed Description</string>
+    <string name="attach_evidence">Attach Evidence (Photo)</string>
+    <string name="submit_complaint">Submit Complaint</string>
+
+    <!-- Details Screen Strings -->
+    <string name="current_status">Current Status: </string>
+    <string name="reporter_info">Reporter Information</string>
+    <string name="official_action_log">Official Action Log</string>
+    <string name="official_feedback">Official Feedback</string>
+    <string name="forwarded_to_label">Forwarded To: </string>
+    <string name="official_remarks_label">Official Remarks:</string>
+    <string name="no_remarks_yet">No remarks yet</string>
+    <string name="management_console">Management Console</string>
+    <string name="assign_department">Assign Department</string>
+    <string name="add_official_remarks_hint">Add Official Remarks</string>
+    <string name="save_remarks">Save Remarks</string>
+    <string name="open">Open</string>
+    <string name="delete_permanently">Delete Permanently</string>
+    <string name="view_on_map">View Location on Map</string>
+    <string name="satisfaction_prompt">Are you satisfied with the progress?</string>
+    <string name="satisfied">Satisfied</string>
+    <string name="unsatisfied">Unsatisfied</string>
+    <string name="withdraw_complaint">Withdraw Complaint</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "683831420787",
+    "firebase_url": "https://citycarecms-default-rtdb.firebaseio.com",
+    "project_id": "citycarecms",
+    "storage_bucket": "citycarecms.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:683831420787:android:3f0f106d354878d33b4706",
+        "android_client_info": {
+          "package_name": "com.example.municipalservices"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1Oor7_NT67fLFVf_dk1KVEnujrYfeNMA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
